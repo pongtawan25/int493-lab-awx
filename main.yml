@@ -19,7 +19,7 @@
       state: enabled
       immediate: yes
    - name: check status
-     url:
+     uri:
       url: http://labx.example.com
      register: result
      delegate_to: localhost
